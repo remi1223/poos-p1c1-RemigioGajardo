@@ -28,17 +28,17 @@ Analizar y delimitar una funcionalidad antes de diseñar clases o escribir códi
 
 ### 1.1 Tres hechos explícitos
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. criatura 
+2. entrenador
+3. intentar capturar  
 
 ### 1.2 Tres ambigüedades convertidas en preguntas
 
 | N.º | Expresión ambigua | Pregunta que debe responder el cliente |
 |---:|---|---|
-| 1 | COMPLETAR | COMPLETAR |
-| 2 | COMPLETAR | COMPLETAR |
-| 3 | COMPLETAR | COMPLETAR |
+| 1 | que criatura es? | cual es la distancia maxima permitida |
+| 2 | que son las capsulas? | cual es la probabilidad de exito  |
+| 3 | que pasa si se le acaban las capsulas? | cuantas criaturas puede capturar |
 
 ### 1.3 Supuesto provisional
 
@@ -56,7 +56,7 @@ Fórmula orientadora:
 
 ### 2.1 Actor, necesidad y objetivo
 
-**Actor principal:** COMPLETAR  
+**Actor principal:** entrenador  
 **Necesidad:** COMPLETAR  
 **Objetivo reescrito:** COMPLETAR
 
@@ -64,14 +64,14 @@ Fórmula orientadora:
 
 #### Entradas necesarias
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
-4. COMPLETAR
+1. identificar entrenador
+2. seleccionar la criatura
+3. instancia simulada
+4. posibilidad de captura
 
 #### Proceso observable
 
-1. COMPLETAR
+1. valor la disponibilidad
 2. COMPLETAR
 3. COMPLETAR
 4. COMPLETAR
@@ -80,8 +80,8 @@ Fórmula orientadora:
 
 #### Salidas esperadas
 
-1. COMPLETAR
-2. COMPLETAR
+1. mensaje de exito o rechazo de la captura
+2. guardar criatura en inventario
 3. COMPLETAR
 4. COMPLETAR
 
@@ -93,16 +93,16 @@ Una **regla** define qué comportamiento es válido. Una **restricción** limita
 
 ### 3.1 Reglas del problema
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. cantidad de capsulas por criatura
+2. maximo de instancias permitidas
+3. la criatura debe estar en la distancia preterminada
 4. COMPLETAR
 
 ### 3.2 Restricciones
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. sin gps
+2. microtransacciones 
+3. -
 
 ### 3.3 Delimitación de la primera versión
 
